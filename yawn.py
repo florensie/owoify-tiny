@@ -16,7 +16,7 @@ def yawn():
     # Wwite new jaw
     if os.path.exists('yawn.jar'):
         os.remove('yawn.jar')
-    shutil.make_archive('yawn', 'zip', 'archive')
+    shutil.make_archive('yawn', 'zip', 'awchive')
     os.rename('yawn.zip', 'yawn.jar')
 
 
